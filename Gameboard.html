@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>   
+        <title>Gameboard</title>   
+        <link rel="stylesheet" type="text/css" href="styles/styless.css">
+        <link rel="stylesheet" type="text/css" href="styles/position.css">
+    </head>
+
+    <body id="GameboardBody">
+
+        <div id="nav">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gameboard.html">Play</a></li>
+                <li><a href="Rules.html">Rules</a></li>
+                <li><a href="Leaderboard.html">Leaderboard</a></li>
+                <li id="profile"><a href="Profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div id="contentLeft">
+                <div class="index">
+                    <h3>Pick a theme:
+                    <a href="#emojiBoard">Emojis</a>
+                    <a href="#animalBoard">Animals</a>
+                    <a href="#albumBoard">Albuns</a>
+                    </h3>
+                </div>
+
+                <div id="information">
+                    <h2>Total:</h2>
+                    <h2>Time:</h2>
+                </div>
+
+                <div class="controls">
+                    <button>Pause</button>
+                    <button>Quit</button>
+                    <button>Restart</button>
+                </div>
+            </div>
+            <div id="contentRight">
+                <div id="prateleira"></div>
+
+                <div id="emojiBoard">
+                    <!-- Tabuleiro tem que ser 5x4 por default (nivel 0 de dificuldade) !! -->
+                    <h1 id="sybName">Emojis Memory Game</h1>
+                    <!-- mudar emojis para ter de varias cores -->
+                    <table>
+                        <tr>
+                            <!-- se nao der mudar para ../ no src-->
+                            <td><img src="./media/emoji/1.png" alt="Smiling Emoji"></td>
+                            <td><img src="./media/emoji/2.png" alt="Tongue out Emoji"></td>
+                            <td><img src="./media/emoji/3.png" alt="Kissing Emoji"></td>
+                            <td><img src="./media/emoji/4.png" alt="Cry Laughing Emoji"></td>
+                            <td><img src="./media/emoji/5.png" alt="Big Smile Emoji"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./media/emoji/6.png" alt="Mad Emoji"></td>
+                            <td><img src="./media/emoji/7.png" alt="Sunglasses Emoji"></td>
+                            <td><img src="./media/emoji/8.png" alt="Sleeping Emoji"></td>
+                            <td><img src="./media/emoji/10.png" alt="Winking Emoji"></td>
+                            <td><img src="./media/emoji/11.png" alt="In love Emoji"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./media/emoji/1.png" alt="Smiling Emoji"></td>
+                            <td><img src="./media/emoji/2.png" alt="Tongue out Emoji"></td>
+                            <td><img src="./media/emoji/3.png" alt="Kissing Emoji"></td>
+                            <td><img src="./media/emoji/4.png" alt="Cry Laughing Emoji"></td>
+                            <td><img src="./media/emoji/5.png" alt="Big Smile Emoji"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./media/emoji/6.png" alt="Mad Emoji"></td>
+                            <td><img src="./media/emoji/7.png" alt="Sunglasses Emoji"></td>
+                            <td><img src="./media/emoji/8.png" alt="Sleeping Emoji"></td>
+                            <td><img src="./media/emoji/10.png" alt="Winking Emoji"></td>
+                            <td><img src="./media/emoji/11.png" alt="In love Emoji"></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!--<div id="animalBoard">
+                    <h1>Animal Memory Game</h1>
+                    <table>
+                        <tr>
+                            <td><img src="./media/animals/1.png" alt="Squirrel"></td>
+                            <td><img src="./media/animals/2.png" alt="Frog"></td>
+                            <td><img src="./media/animals/3.png" alt="Rabbit"></td>
+                            <td><img src="./media/animals/4.png" alt="Cat"></td>
+                            <td><img src="./media/animals/5.png" alt="Dog"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./media/animals/6.png" alt="Monkey"></td>
+                            <td><img src="./media/animals/7.png" alt="Koala"></td>
+                            <td><img src="./media/animals/8.png" alt="Sheep"></td>
+                            <td><img src="./media/animals/9.png" alt="Panda"></td>
+                            <td><img src="./media/animals/10.png" alt="Octopus"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./media/animals/1.png" alt="Squirrel"></td>
+                            <td><img src="./media/animals/2.png" alt="Frog"></td>
+                            <td><img src="./media/animals/3.png" alt="Rabbit"></td>
+                            <td><img src="./media/animals/4.png" alt="Cat"></td>
+                            <td><img src="./media/animals/5.png" alt="Dog"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./media/animals/6.png" alt="Monkey"></td>
+                            <td><img src="./media/animals/7.png" alt="Koala"></td>
+                            <td><img src="./media/animals/8.png" alt="Sheep"></td>
+                            <td><img src="./media/animals/9.png" alt="Panda"></td>
+                            <td><img src="./media/animals/10.png" alt="Octopus"></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="albumBoard">
+                    <h1>Album Memory Game</h1>
+                    <table>
+                        <tr>
+                            <td><img src="./media/albuns/1.png" alt="The Dark Side Of The Moon"></td>
+                            <td><img src="./media/albuns/2.png" alt="Thriller"></td>
+                            <td><img src="./media/albuns/3.png" alt="Rumours"></td>
+                            <td><img src="./media/albuns/4.jpg" alt="Sgt Pepper's Lonely Hearts Club Band"></td>
+                            <td><img src="./media/albuns/5.jpg" alt="The Eminem Show"></td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="./media/albuns/6.jpg" alt="Dookie"></td>
+                            <td><img src="./media/albuns/7.jpg" alt="Nevermind"></td>
+                            <td><img src="./media/albuns/8.png" alt="Like A Virgin"></td>
+                            <td><img src="./media/albuns/9.png" alt="Baby One More Time"></td>
+                            <td><img src="./media/albuns/10.jpg" alt="Born In The USA"></td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="./media/albuns/1.png" alt="The Dark Side Of The Moon"></td>
+                            <td><img src="./media/albuns/2.png" alt="Thriller"></td>
+                            <td><img src="./media/albuns/3.png" alt="Rumours"></td>
+                            <td><img src="./media/albuns/4.jpg" alt="Sgt Pepper's Lonely Hearts Club Band"></td>
+                            <td><img src="./media/albuns/5.jpg" alt="The Eminem Show"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./media/albuns/6.jpg" alt="Dookie"></td>
+                            <td><img src="./media/albuns/7.jpg" alt="Nevermind"></td>
+                            <td><img src="./media/albuns/8.png" alt="Like A Virgin"></td>
+                            <td><img src="./media/albuns/9.png" alt="Baby One More Time"></td>
+                            <td><img src="./media/albuns/10.jpg" alt="Born In The USA"></td>
+                        </tr>
+                    </table>
+                </div>-->
+            </div>
+        <br>
+        <audio controls>
+            <source src="media/sound/exampleSong.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </body>
+</html>

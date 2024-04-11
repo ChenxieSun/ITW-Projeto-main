@@ -1,0 +1,162 @@
+/*    general     */
+
+body{
+    background-image: url("../media/img/comp.png");
+    background-size: 100%;
+    background-color: #f8e7c7;
+}
+
+#GameboardBody{
+    background-image: url("../media/img/backgroundGame.png");
+}
+
+#indexBody{
+    background-image: url("../media/img/background.png");
+    background-size: 100%;
+    background-color: #91d4f9;
+}
+#Hometitle{
+    width: 50%;
+}
+
+#prateleira{
+    width: 50%;
+    height: 90%;
+    aspect-ratio: 1/1;
+    background-color: cadetblue;
+    border: 10px solid #436084 ;
+}
+
+.controls button{
+    width: 100px;
+    padding: 5px 20px;
+    margin: 0;
+    border-radius: 3px; 
+    border: 10px solid #436084 ;  
+    background-color: #436084;
+    color:#fff;
+    text-align: center;
+    
+    font-size: 20px;
+    font-family: fantasy;
+    
+}
+.controls button:hover {
+    background-color:#fff;
+    color: #436084;
+    border: 10px solid #88a9cf;
+}
+
+#contentLeft{
+    border: 10px solid #000;
+    background-color: #fbf1ba;
+    width: 400px;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+
+h1, h2 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.rules p{
+    margin-top: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #436084;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#profile {
+    float: right;
+}
+
+.navbar li a:hover{
+    color:  #436084;
+    background-color: white;
+}
+.navbar li a.active{
+    color:  white;
+    background-color: #000;
+}
+
+
+/*    index     */
+#indexButton a {
+    display: block;
+    width: 100px;
+    padding: 5px 20px;
+    margin: 0;
+    border-radius: 3px; 
+    border: 10px solid #436084 ;  
+    background-color: #436084;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+#indexButton a:hover {
+    background-color:#fff;
+    color: #436084;
+    border: 10px solid #88a9cf;
+}
+
+
+/*    Gameboard     */
+#information h2 {
+    border: 2px solid 436084;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px 5px;
+}
+
+.index a {
+    border: 1px dotted 436084;
+    border-radius: 5px;
+    padding: 2px 2px;
+}
+
+.controls button {
+    padding: 5px 5px;
+    margin: 0;
+    border-radius: 3px; 
+    background-color: 436084;
+    color: white;
+    text-align: center;
+}
+
+td img {
+    width: 120px;
+    height: 120px;
+}
+
+/*    Rules     */
+.rules {
+    border-bottom: 2px solid 436084;
+}
+
+/*    Leaderboard     */
+/*    Profile     */

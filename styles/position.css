@@ -1,0 +1,58 @@
+
+body{
+    background-attachment: fixed;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+}
+
+/*#indexBody{
+    background-attachment: fixed;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+*/
+#Hometitle{
+    position: absolute;
+    left: 1%;
+    top: 10%;
+}
+#indexButton {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+
+/* Gameboard */
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.content{
+    float: left;
+}
+
+#emojiBoard{
+    position: fixed;
+    top: 10%;
+    right: 155px;
+}
+
+#prateleira{
+    position: fixed;
+    top: 7%;
+    right: 100px;
+}
